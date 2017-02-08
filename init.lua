@@ -20,4 +20,4 @@ minetest.register_craft({
 		{'farming:wheat', 'default:dirt', 'farming:carrot'},
 		{'', 'farming:wheat', ''},
 	}
---To craft three tacos you need 3 wheat and 1 carrot.
+--To craft three tacos you need 3 wheat and 1 carrot!
