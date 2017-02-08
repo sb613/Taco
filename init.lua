@@ -6,7 +6,7 @@ minetest.after(5,
 		
 
 minetest.register_craftitem("taco", {
-	description = S("taco"),
+	description = ("taco"),
 	inventory_image = "farming_donut.png",
 	on_use = minetest.item_eat(5),
 		minetest.after(5,
