@@ -13,12 +13,12 @@ minetest.register_craftitem("Taco", {
 	function(params)
 		minetest.chat_send_all("Wasn't that delicous?!")
 })
-
+		
 minetest.register_craft({
 	output = "taco 3",
 	recipe = {
 		{'', 'farming:wheat', ''},
-		{'farming:wheat', '', 'farming:carrot'},
+		{'farming:wheat', 'default:dirt', 'farming:carrot'},
 		{'', 'farming:wheat', ''},
 	}
-})
+})--To craft three tacos you need 3 wheat and 1 carrot.
